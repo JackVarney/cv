@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cv creation page</title>
+    <link rel="stylesheet" href="css/cv.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="js/cv.js"></script>    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <!--<button id="testbutton"> test </button>-->
+
+    <nav>
+        <ul class="nav nav-tabs">
+            <li>
+
+            </li>
+        </ul>
+    </nav>
+
+    <div class="page-header col-md-8 col-sm-offset-2">
+        <h1 class="text-center"> Enter Your CV Here </h1>
+        <h6 class="text-center">Click Panel Below To Open</h6>        
+    </div>
+
+    <div class="col-md-6 col-sm-offset-3">
+
+        <div class="panel panel-primary">
+            <div id="pnlProfileHeader" class="panel-heading">
+                <h4 class="panel-title"> Profile </h4>
+            </div>
+            <div id="pnlProfileBody" class="panel-body">
+                <textarea type="text" id="txtProfile" class="form-control" rows="8"></textarea>
+                <br>
+                <button id="btnSaveProfile" class="btn btn-success"> Save </button>
+                <button id="btnClearProfile" class="btn btn-danger"> Clear </button>
+                <button id="btnRestoreProfile" class="btn btn-primary"> Restore </button>
+
+                <br><br>
+
+                <div class="progress">
+                    <div id="prgProfile" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                        <span class="sr-only"></span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="panel panel-primary ">
+            <div id="pnlEducationHeader" class="panel-heading">
+                <h4 class="panel-title"> Education and Qualifications </h4>
+            </div>
+            <div id="pnlEducationBody" class="panel-body">
+                <textarea type="text" id="txtEducation" class="form-control" rows="8"> </textarea>
+                <br>
+                <button id="btnSaveEducation" class="btn btn-success"> Save </button>
+                <button id="btnClearEducation" class="btn btn-danger"> Clear </button>
+                <button id="btnRestoreEducation" class="btn btn-primary"> Restore </button>
+
+                <br><br>
+
+                <div class="progress">
+                    <div id="prgEducation" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                        <span class="sr-only"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="panel panel-primary ">
+            <div id="pnlExperienceHeader" class="panel-heading">
+                <h4 class="panel-title"> Work Experience </h4>
+            </div>
+            <div id="pnlExperienceBody" class="panel-body">
+                <textarea type="text" id="txtExperience" class="form-control" rows="8"></textarea>
+                <br>
+                <button id="btnSaveExperience" class="btn btn-success"> Save </button>
+                <button id="btnClearExperience" class="btn btn-danger"> Clear </button>
+                <button id="btnRestoreExperience" class="btn btn-primary"> Restore </button>
+
+                   <br><br>
+
+                <div id="prgExperienceBackground" class="progress">
+                    <div id="prgExperience" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                        <span class="sr-only"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-primary ">
+            <div id="pnlSkillsHeader" class="panel-heading">
+                <h4 class="panel-title"> Information Technology Skills </h4>
+            </div>
+            <div id="pnlSkillsBody" class="panel-body">
+                <textarea type="text" id="txtSkills" class="form-control" rows="8"></textarea>
+                <br>
+                <button id="btnSaveSkills" class="btn btn-success"> Save </button>
+                <button id="btnClearSkills" class="btn btn-danger"> Clear </button>
+                <button id="btnRestoreSkills" class="btn btn-primary"> Restore </button>
+
+                   <br><br>
+
+                <div class="progress">
+                    <div id="prgSkills" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                        <span class="sr-only"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-primary ">
+            <div id="pnlInterestsHeader" class="panel-heading">
+                <h4 class="panel-title"> Interests and Hobbies </h4>
+            </div>
+            <div id="pnlInterestsBody" class="panel-body">
+                <textarea type="text" id="txtInterests" class="form-control" rows="8"></textarea>
+                <br>
+                <button id="btnSaveInterests" class="btn btn-success"> Save </button>
+                <button id="btnClearInterests" class="btn btn-danger"> Clear </button>
+                <button id="btnRestoreInterests" class="btn btn-primary"> Restore </button>               
+
+                   <br><br>
+
+                <div class="progress">
+                    <div id="prgInterests" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                        <span class="sr-only"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <nav aria-label="...">            
+            <ul class="pager">                
+              <!--<li class="col-md-1" onclick="pgrClickLeft()"><a href="#">Previous</a></li>
+                <li class="" onclick="pgrClickRight()"><a href="#">Next</a></li> -->
+                <button id="btnClearAll" class="btn btn-warning "> Clear All </button>
+                <button id="btnSaveAll" class="btn btn-success "> Save All </button>
+            </ul>
+        </nav>
+
+    </div>
+
+</body>
+
+</html>
