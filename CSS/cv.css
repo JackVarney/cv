@@ -1,0 +1,14 @@
+#scrollup{
+
+    /*padding-top: 180px;
+    padding-left: 0px;*/
+    position: fixed;
+}
+
+#scrolldown{
+
+    /*padding-top: 800px;*/
+    padding-left: 330px;
+    position: fixed;
+
+}

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
-    <script src="js/cv.js"></script>    
+    <script src="js/cv.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
 
@@ -26,12 +26,33 @@
         </ul>
     </nav>
 
-    <div class="page-header col-md-8 col-sm-offset-2">
+
+
+    <div id="Header" class="page-header col-md-8 col-sm-offset-2">
         <h1 class="text-center"> Enter Your CV Here </h1>
-        <h6 class="text-center">Click Panel Below To Open</h6>        
+        <h6 class="text-center">Click Panel Below To Open</h6>
     </div>
 
+    <div id="scrollup" class="col-2 col-sm-offset-2">
+        <button class="btn btn-default">button
+            <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
+        </button>
+    </div>
+
+    <div id="scrolldown" class="col-2 col-sm-offset-2">
+        <button class="btn btn-default">button
+            <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+        </button>
+    </div>
+
+
+
+
     <div class="col-md-6 col-sm-offset-3">
+
+
+
+
 
         <div class="panel panel-primary">
             <div id="pnlProfileHeader" class="panel-heading">
@@ -89,10 +110,11 @@
                 <button id="btnClearExperience" class="btn btn-danger"> Clear </button>
                 <button id="btnRestoreExperience" class="btn btn-primary"> Restore </button>
 
-                   <br><br>
+                <br><br>
 
                 <div id="prgExperienceBackground" class="progress">
-                    <div id="prgExperience" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    <div id="prgExperience" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                        aria-valuemax="100">
                         <span class="sr-only"></span>
                     </div>
                 </div>
@@ -110,7 +132,7 @@
                 <button id="btnClearSkills" class="btn btn-danger"> Clear </button>
                 <button id="btnRestoreSkills" class="btn btn-primary"> Restore </button>
 
-                   <br><br>
+                <br><br>
 
                 <div class="progress">
                     <div id="prgSkills" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
@@ -129,9 +151,9 @@
                 <br>
                 <button id="btnSaveInterests" class="btn btn-success"> Save </button>
                 <button id="btnClearInterests" class="btn btn-danger"> Clear </button>
-                <button id="btnRestoreInterests" class="btn btn-primary"> Restore </button>               
+                <button id="btnRestoreInterests" class="btn btn-primary"> Restore </button>
 
-                   <br><br>
+                <br><br>
 
                 <div class="progress">
                     <div id="prgInterests" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
@@ -143,9 +165,9 @@
 
 
 
-        <nav aria-label="...">            
-            <ul class="pager">                
-              <!--<li class="col-md-1" onclick="pgrClickLeft()"><a href="#">Previous</a></li>
+        <nav aria-label="...">
+            <ul class="pager">
+                <!--<li class="col-md-1" onclick="pgrClickLeft()"><a href="#">Previous</a></li>
                 <li class="" onclick="pgrClickRight()"><a href="#">Next</a></li> -->
                 <button id="btnClearAll" class="btn btn-warning "> Clear All </button>
                 <button id="btnSaveAll" class="btn btn-success "> Save All </button>
@@ -153,6 +175,9 @@
         </nav>
 
     </div>
+
+
+
 
 </body>
 

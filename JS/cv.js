@@ -132,6 +132,7 @@ $(document).ready(function () {
     $("#btnClearInterests").click(txtInterestsBar);
     $("#btnRestoreInterests").click(txtInterestsBar);
 
+    
 
 
     //testing#
